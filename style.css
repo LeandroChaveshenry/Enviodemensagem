@@ -8,7 +8,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(68.15deg, #0a0a09 16.62%, #c5a159 85.61%);
   background-repeat: no-repeat;
   
@@ -19,6 +19,8 @@ body {
     width: 100%;
     align-items: center;
     justify-items: center;
+    padding: 70px;
+    
     
 }
 
@@ -28,6 +30,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 80px;
+    
   }
   
   .conteudo-principal-escrito {
@@ -55,11 +58,11 @@ body {
     height: 200px;
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 640px){
   
     .conteudo {
 
-    width: 100%;
+    width: 640px;
     align-items: center;
     justify-content: center;
     margin: 2px;
