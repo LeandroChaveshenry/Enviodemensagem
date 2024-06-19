@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(68.15deg, #0a0a09 16.62%, #c5a159 85.61%);
+  background-repeat: no-repeat;
+  
+}
+
+
+.conteudo {
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+  .conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+  }
+  
+  .conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 33px;
+    align-items: center;
+  }
+  
+  .conteudo-principal-escrito-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    color: #FFF2E7;
+  }
+  
+  .conteudo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+  }
+
+  .conteudo-principal-imagem {
+    height: 200px;
+  }
+
+  @media screen and (max-width: 768px){
+  
+    .conteudo {
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    margin-top: 2px;
+    border-width: 2px;
+       }
+
+    .conteudo conteudo-principal-escrito-titulo {
+
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    margin: 1px;
+    margin-top: 1px;
+    border-width: 1px;
+    padding: 14px;
+    
+
+    }
+
+
+    .conteudo conteudo-principal-escrito {
+
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+        margin: 1px;
+        margin-top: 1px;
+        border-width: 14px;
+        padding: 14px;
+        
+    
+   
+    }
+
+    .conteudo conteudo-principal-imagem {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    margin: 1px;
+    margin-top: 1px;
+    max-width: 740px;
+    padding: 14px;
+    height: 70px;
+
+    }
+  
+
+}
