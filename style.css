@@ -9,9 +9,7 @@
 
 body {
   height: 100Vh;
-  background: linear-gradient(68.15deg, #0a0a09 16.62%, #c5a159 85.61%);
-  background-repeat: no-repeat;
-  
+  background: linear-gradient(68.15deg, #0a0a09 16.62%, #c5a159 85.61%), fixed;
 }
 
 
@@ -19,7 +17,7 @@ body {
     width: 100%;
     align-items: center;
     justify-items: center;
-    padding: 60px;
+    padding: 45px;
     
     
 }
@@ -29,14 +27,14 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 80px;
+    gap: 60px;
     
   }
   
   .conteudo-principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 33px;
+    gap: 25px;
     align-items: center;
   }
   
